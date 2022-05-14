@@ -2,9 +2,9 @@
 Console.WriteLine("Введите размерность пространства (больше 1)");
 int stepenS = int.Parse(Console.ReadLine());
 double[] coordinates1 = new double[stepenS]; ///Массив для координат первой точки
-double[] coordinates2 = new double[stepenS]; ///Массив для координат первой точки
-double DistKvadrat = 0;
-for (int i = 0; i < stepenS; i++)  ///Внесение координат для точек
+double[] coordinates2 = new double[stepenS]; ///Массив для координат второй точки
+double DistKvadrat = 0;                      ///квадрат расстояния между точками
+for (int i = 0; i < stepenS; i++)            ///Внесение координат для точек
 {
     Console.Write($"Введите {i + 1} коррдинату для первой точки ");
     coordinates1[i] = double.Parse(Console.ReadLine());
