@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите размерность пространства (больше 1)");
+﻿///Найти расстояние между точками в пространстве 2D/3D (n пространстве)
+Console.WriteLine("Введите размерность пространства (больше 1)");
 int stepenS = int.Parse(Console.ReadLine());
 double[] coordinates1 = new double[stepenS]; ///Массив для координат первой точки
 double[] coordinates2 = new double[stepenS]; ///Массив для координат первой точки

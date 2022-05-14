@@ -1,4 +1,5 @@
-﻿Console.Write("Put number a ");
+﻿///По двум заданным числам проверять является ли одно квадратом другого
+Console.Write("Put number a ");
 int a = int.Parse(Console.ReadLine());
 Console.Write("Put number b ");
 int b = int.Parse(Console.ReadLine());
